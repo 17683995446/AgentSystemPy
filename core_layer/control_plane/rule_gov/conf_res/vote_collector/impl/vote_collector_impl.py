@@ -1,4 +1,5 @@
-class VoteCollectorImpl:
+from ..interfaces.i_vote_collector import IVoteCollector
+class VoteCollectorImpl(IVoteCollector):
     def open_ballot(self) -> None:
         pass
 

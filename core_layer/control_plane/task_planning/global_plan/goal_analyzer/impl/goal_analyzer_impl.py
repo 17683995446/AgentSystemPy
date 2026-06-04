@@ -1,4 +1,5 @@
-class GoalAnalyzerImpl:
+from ..interfaces.i_goal_analyzer import IGoalAnalyzer
+class GoalAnalyzerImpl(IGoalAnalyzer):
     def parse_input(self) -> None:
         pass
 

@@ -1,4 +1,5 @@
-class SkillTagIndexerImpl:
+from ..interfaces.i_skill_tag_indexer import ISkillTagIndexer
+class SkillTagIndexerImpl(ISkillTagIndexer):
     def index_tag(self) -> None:
         pass
 

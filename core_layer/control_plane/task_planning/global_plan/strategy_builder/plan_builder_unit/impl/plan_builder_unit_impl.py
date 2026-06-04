@@ -1,4 +1,5 @@
-class PlanBuilderUnitImpl:
+from ..interfaces.i_plan_builder_unit import IPlanBuilderUnit
+class PlanBuilderUnitImpl(IPlanBuilderUnit):
     def create_unit(self) -> None:
         pass
 

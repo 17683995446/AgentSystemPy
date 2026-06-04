@@ -1,4 +1,5 @@
-class AccessTokenMgrImpl:
+from ..interfaces.i_access_token_mgr import IAccessTokenMgr
+class AccessTokenMgrImpl(IAccessTokenMgr):
     def issue_token(self) -> None:
         pass
 

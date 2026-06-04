@@ -1,4 +1,5 @@
-class VoteTallyEngineImpl:
+from ..interfaces.i_vote_tally_engine import IVoteTallyEngine
+class VoteTallyEngineImpl(IVoteTallyEngine):
     def count_votes(self) -> None:
         pass
 

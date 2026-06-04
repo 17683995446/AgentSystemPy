@@ -1,4 +1,5 @@
-class LoadMetricCollectorImpl:
+from ..interfaces.i_load_metric_collector import ILoadMetricCollector
+class LoadMetricCollectorImpl(ILoadMetricCollector):
     def collect_cpu(self) -> None:
         pass
 

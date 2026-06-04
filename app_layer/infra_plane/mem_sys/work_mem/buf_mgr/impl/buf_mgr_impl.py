@@ -1,4 +1,5 @@
-class BufMgrImpl:
+from ..interfaces.i_buf_mgr import IBufMgr
+class BufMgrImpl(IBufMgr):
     def alloc_buf(self) -> None:
         pass
 

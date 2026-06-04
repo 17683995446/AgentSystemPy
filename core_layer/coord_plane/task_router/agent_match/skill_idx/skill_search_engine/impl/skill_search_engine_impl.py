@@ -1,4 +1,5 @@
-class SkillSearchEngineImpl:
+from ..interfaces.i_skill_search_engine import ISkillSearchEngine
+class SkillSearchEngineImpl(ISkillSearchEngine):
     def search(self) -> None:
         pass
 

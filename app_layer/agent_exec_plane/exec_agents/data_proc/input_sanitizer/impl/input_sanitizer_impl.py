@@ -1,4 +1,5 @@
-class InputSanitizerImpl:
+from ..interfaces.i_input_sanitizer import IInputSanitizer
+class InputSanitizerImpl(IInputSanitizer):
     def trim_input(self) -> None:
         pass
 

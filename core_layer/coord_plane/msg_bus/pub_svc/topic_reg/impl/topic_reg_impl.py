@@ -1,4 +1,5 @@
-class TopicRegImpl:
+from ..interfaces.i_topic_reg import ITopicReg
+class TopicRegImpl(ITopicReg):
     def register_topic(self) -> None:
         pass
 

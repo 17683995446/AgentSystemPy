@@ -1,4 +1,5 @@
-class TaskSplitterImpl:
+from ..interfaces.i_task_splitter import ITaskSplitter
+class TaskSplitterImpl(ITaskSplitter):
     def estimate_size(self) -> None:
         pass
 

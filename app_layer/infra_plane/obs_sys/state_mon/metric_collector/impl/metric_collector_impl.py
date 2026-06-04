@@ -1,4 +1,5 @@
-class MetricCollectorImpl:
+from ..interfaces.i_metric_collector import IMetricCollector
+class MetricCollectorImpl(IMetricCollector):
     def register_source(self) -> None:
         pass
 

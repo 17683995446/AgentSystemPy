@@ -1,4 +1,4 @@
-from core_layer.control_plane.task_planning.interfaces.i_task_planning import ITaskPlanning
+from ..interfaces.i_task_planning import ITaskPlanning
 
 
 class TaskPlanningImpl(ITaskPlanning):

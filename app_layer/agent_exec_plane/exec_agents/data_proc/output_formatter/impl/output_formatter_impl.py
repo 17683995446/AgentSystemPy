@@ -1,4 +1,5 @@
-class OutputFormatterImpl:
+from ..interfaces.i_output_formatter import IOutputFormatter
+class OutputFormatterImpl(IOutputFormatter):
     def format_data(self) -> None:
         pass
 

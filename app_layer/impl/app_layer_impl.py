@@ -1,4 +1,4 @@
-from app_layer.interfaces.i_app_layer import IAppLayer
+from ..interfaces.i_app_layer import IAppLayer
 
 
 class AppLayerImpl(IAppLayer):

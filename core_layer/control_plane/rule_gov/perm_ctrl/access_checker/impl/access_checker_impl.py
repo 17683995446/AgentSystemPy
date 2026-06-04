@@ -1,4 +1,5 @@
-class AccessCheckerImpl:
+from ..interfaces.i_access_checker import IAccessChecker
+class AccessCheckerImpl(IAccessChecker):
     def issue_token(self) -> None:
         pass
 

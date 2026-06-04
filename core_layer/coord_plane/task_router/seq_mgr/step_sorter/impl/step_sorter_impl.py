@@ -1,4 +1,5 @@
-class StepSorterImpl:
+from ..interfaces.i_step_sorter import IStepSorter
+class StepSorterImpl(IStepSorter):
     def build_graph(self) -> None:
         pass
 

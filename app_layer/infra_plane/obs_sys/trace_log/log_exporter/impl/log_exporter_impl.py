@@ -1,4 +1,5 @@
-class LogExporterImpl:
+from ..interfaces.i_log_exporter import ILogExporter
+class LogExporterImpl(ILogExporter):
     def export_file(self) -> None:
         pass
 

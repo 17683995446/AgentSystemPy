@@ -1,4 +1,5 @@
-class RoleAssignerImpl:
+from ..interfaces.i_role_assigner import IRoleAssigner
+class RoleAssignerImpl(IRoleAssigner):
     def assign_role(self) -> None:
         pass
 

@@ -1,4 +1,5 @@
-class StepGeneratorImpl:
+from ..interfaces.i_step_generator import IStepGenerator
+class StepGeneratorImpl(IStepGenerator):
     def generate_step(self) -> None:
         pass
 

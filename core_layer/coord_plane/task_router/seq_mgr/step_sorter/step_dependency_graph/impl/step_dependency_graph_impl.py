@@ -1,4 +1,5 @@
-class StepDependencyGraphImpl:
+from ..interfaces.i_step_dependency_graph import IStepDependencyGraph
+class StepDependencyGraphImpl(IStepDependencyGraph):
     def add_node(self) -> None:
         pass
 

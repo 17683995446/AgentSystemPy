@@ -1,4 +1,5 @@
-class GoalPriorityRankImpl:
+from ..interfaces.i_goal_priority_rank import IGoalPriorityRank
+class GoalPriorityRankImpl(IGoalPriorityRank):
     def score_goals(self) -> None:
         pass
 

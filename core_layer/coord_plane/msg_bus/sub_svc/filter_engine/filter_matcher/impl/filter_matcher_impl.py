@@ -1,4 +1,5 @@
-class FilterMatcherImpl:
+from ..interfaces.i_filter_matcher import IFilterMatcher
+class FilterMatcherImpl(IFilterMatcher):
     def match_msg(self) -> None:
         pass
 

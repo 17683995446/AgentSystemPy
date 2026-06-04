@@ -1,4 +1,5 @@
-class MsgCompressEngineImpl:
+from ..interfaces.i_msg_compress_engine import IMsgCompressEngine
+class MsgCompressEngineImpl(IMsgCompressEngine):
     def compress(self) -> None:
         pass
 

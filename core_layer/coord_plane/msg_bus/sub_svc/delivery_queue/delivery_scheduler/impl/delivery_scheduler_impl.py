@@ -1,4 +1,5 @@
-class DeliverySchedulerImpl:
+from ..interfaces.i_delivery_scheduler import IDeliveryScheduler
+class DeliverySchedulerImpl(IDeliveryScheduler):
     def schedule(self) -> None:
         pass
 

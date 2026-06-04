@@ -1,4 +1,5 @@
-class FilterRuleParserImpl:
+from ..interfaces.i_filter_rule_parser import IFilterRuleParser
+class FilterRuleParserImpl(IFilterRuleParser):
     def parse_rule(self) -> None:
         pass
 

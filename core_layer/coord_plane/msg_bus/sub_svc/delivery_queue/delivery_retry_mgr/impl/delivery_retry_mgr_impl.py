@@ -1,4 +1,5 @@
-class DeliveryRetryMgrImpl:
+from ..interfaces.i_delivery_retry_mgr import IDeliveryRetryMgr
+class DeliveryRetryMgrImpl(IDeliveryRetryMgr):
     def schedule_retry(self) -> None:
         pass
 

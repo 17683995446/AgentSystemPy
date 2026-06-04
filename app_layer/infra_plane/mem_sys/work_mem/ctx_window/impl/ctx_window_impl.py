@@ -1,4 +1,5 @@
-class CtxWindowImpl:
+from ..interfaces.i_ctx_window import ICtxWindow
+class CtxWindowImpl(ICtxWindow):
     def open_window(self) -> None:
         pass
 

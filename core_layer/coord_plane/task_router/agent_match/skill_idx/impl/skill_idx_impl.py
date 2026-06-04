@@ -1,4 +1,5 @@
-class SkillIdxImpl:
+from ..interfaces.i_skill_idx import ISkillIdx
+class SkillIdxImpl(ISkillIdx):
     def index_skill(self) -> None:
         pass
 

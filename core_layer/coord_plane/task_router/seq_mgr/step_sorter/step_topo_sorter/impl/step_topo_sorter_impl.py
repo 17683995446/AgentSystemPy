@@ -1,4 +1,5 @@
-class StepTopoSorterImpl:
+from ..interfaces.i_step_topo_sorter import IStepTopoSorter
+class StepTopoSorterImpl(IStepTopoSorter):
     def sort(self) -> None:
         pass
 

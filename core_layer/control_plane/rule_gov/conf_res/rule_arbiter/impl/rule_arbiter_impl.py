@@ -1,4 +1,5 @@
-class RuleArbiterImpl:
+from ..interfaces.i_rule_arbiter import IRuleArbiter
+class RuleArbiterImpl(IRuleArbiter):
     def load_rules(self) -> None:
         pass
 

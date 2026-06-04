@@ -1,4 +1,5 @@
-class DeliveryQueueImpl:
+from ..interfaces.i_delivery_queue import IDeliveryQueue
+class DeliveryQueueImpl(IDeliveryQueue):
     def schedule_delivery(self) -> None:
         pass
 

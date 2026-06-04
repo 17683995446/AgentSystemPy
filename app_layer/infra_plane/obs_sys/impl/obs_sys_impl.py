@@ -1,4 +1,4 @@
-from app_layer.infra_plane.obs_sys.interfaces.i_obs_sys import IObsSys
+from ..interfaces.i_obs_sys import IObsSys
 
 
 class ObsSysImpl(IObsSys):

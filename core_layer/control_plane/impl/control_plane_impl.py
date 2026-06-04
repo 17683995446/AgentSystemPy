@@ -1,4 +1,4 @@
-from core_layer.control_plane.interfaces.i_control_plane import IControlPlane
+from ..interfaces.i_control_plane import IControlPlane
 
 
 class ControlPlaneImpl(IControlPlane):

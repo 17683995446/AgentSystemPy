@@ -1,4 +1,5 @@
-class StepRuleCheckerImpl:
+from ..interfaces.i_step_rule_checker import IStepRuleChecker
+class StepRuleCheckerImpl(IStepRuleChecker):
     def load_rules(self) -> None:
         pass
 

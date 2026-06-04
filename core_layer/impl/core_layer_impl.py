@@ -1,4 +1,4 @@
-from core_layer.interfaces.i_core_layer import ICoreLayer
+from ..interfaces.i_core_layer import ICoreLayer
 
 
 class CoreLayerImpl(ICoreLayer):

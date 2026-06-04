@@ -1,4 +1,5 @@
-class PlanBuilderToolImpl:
+from ..interfaces.i_plan_builder_tool import IPlanBuilderTool
+class PlanBuilderToolImpl(IPlanBuilderTool):
     def define_tool(self) -> None:
         pass
 

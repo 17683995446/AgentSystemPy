@@ -1,4 +1,5 @@
-class MsgFormatPickerImpl:
+from ..interfaces.i_msg_format_picker import IMsgFormatPicker
+class MsgFormatPickerImpl(IMsgFormatPicker):
     def detect_format(self) -> None:
         pass
 

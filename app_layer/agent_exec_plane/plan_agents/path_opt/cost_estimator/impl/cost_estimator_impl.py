@@ -1,4 +1,5 @@
-class CostEstimatorImpl:
+from ..interfaces.i_cost_estimator import ICostEstimator
+class CostEstimatorImpl(ICostEstimator):
     def estimate_time(self) -> None:
         pass
 

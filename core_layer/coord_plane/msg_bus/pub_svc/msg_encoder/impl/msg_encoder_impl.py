@@ -1,4 +1,5 @@
-class MsgEncoderImpl:
+from ..interfaces.i_msg_encoder import IMsgEncoder
+class MsgEncoderImpl(IMsgEncoder):
     def pick_format(self) -> None:
         pass
 

@@ -1,4 +1,4 @@
-from app_layer.agent_exec_plane.interfaces.i_agent_exec_plane import IAgentExecPlane
+from ..interfaces.i_agent_exec_plane import IAgentExecPlane
 
 
 class AgentExecPlaneImpl(IAgentExecPlane):

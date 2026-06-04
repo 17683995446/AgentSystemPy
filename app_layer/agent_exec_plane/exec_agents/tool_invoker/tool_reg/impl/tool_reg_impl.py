@@ -1,4 +1,5 @@
-class ToolRegImpl:
+from ..interfaces.i_tool_reg import IToolReg
+class ToolRegImpl(IToolReg):
     def register_tool(self) -> None:
         pass
 

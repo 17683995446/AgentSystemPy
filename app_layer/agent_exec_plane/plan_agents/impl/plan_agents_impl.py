@@ -1,4 +1,4 @@
-from app_layer.agent_exec_plane.plan_agents.interfaces.i_plan_agents import IPlanAgents
+from ..interfaces.i_plan_agents import IPlanAgents
 
 
 class PlanAgentsImpl(IPlanAgents):

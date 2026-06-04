@@ -1,4 +1,5 @@
-class StepSafetyGuardImpl:
+from ..interfaces.i_step_safety_guard import IStepSafetyGuard
+class StepSafetyGuardImpl(IStepSafetyGuard):
     def scan_risks(self) -> None:
         pass
 

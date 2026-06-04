@@ -1,4 +1,5 @@
-class ResultParserImpl:
+from ..interfaces.i_result_parser import IResultParser
+class ResultParserImpl(IResultParser):
     def parse_raw(self) -> None:
         pass
 

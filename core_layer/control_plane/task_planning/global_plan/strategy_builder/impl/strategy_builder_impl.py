@@ -1,4 +1,5 @@
-class StrategyBuilderImpl:
+from ..interfaces.i_strategy_builder import IStrategyBuilder
+class StrategyBuilderImpl(IStrategyBuilder):
     def define_strategy(self) -> None:
         pass
 

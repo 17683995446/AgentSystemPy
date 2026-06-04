@@ -1,4 +1,5 @@
-class StepMergerImpl:
+from ..interfaces.i_step_merger import IStepMerger
+class StepMergerImpl(IStepMerger):
     def collect_batch(self) -> None:
         pass
 

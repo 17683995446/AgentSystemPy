@@ -1,4 +1,5 @@
-class TopicMetaStoreImpl:
+from ..interfaces.i_topic_meta_store import ITopicMetaStore
+class TopicMetaStoreImpl(ITopicMetaStore):
     def store_meta(self) -> None:
         pass
 

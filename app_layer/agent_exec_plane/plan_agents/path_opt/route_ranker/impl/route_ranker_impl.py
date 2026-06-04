@@ -1,4 +1,5 @@
-class RouteRankerImpl:
+from ..interfaces.i_route_ranker import IRouteRanker
+class RouteRankerImpl(IRouteRanker):
     def score_routes(self) -> None:
         pass
 

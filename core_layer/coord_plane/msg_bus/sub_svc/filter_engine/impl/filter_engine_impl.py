@@ -1,4 +1,5 @@
-class FilterEngineImpl:
+from ..interfaces.i_filter_engine import IFilterEngine
+class FilterEngineImpl(IFilterEngine):
     def parse_rule(self) -> None:
         pass
 

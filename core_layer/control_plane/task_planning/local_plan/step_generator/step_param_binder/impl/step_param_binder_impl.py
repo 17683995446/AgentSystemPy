@@ -1,4 +1,5 @@
-class StepParamBinderImpl:
+from ..interfaces.i_step_param_binder import IStepParamBinder
+class StepParamBinderImpl(IStepParamBinder):
     def bind_params(self) -> None:
         pass
 

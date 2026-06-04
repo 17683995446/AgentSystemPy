@@ -1,4 +1,5 @@
-class AlertDispatcherImpl:
+from ..interfaces.i_alert_dispatcher import IAlertDispatcher
+class AlertDispatcherImpl(IAlertDispatcher):
     def register_rule(self) -> None:
         pass
 

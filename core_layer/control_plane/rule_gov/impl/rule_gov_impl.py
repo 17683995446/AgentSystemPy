@@ -1,4 +1,4 @@
-from core_layer.control_plane.rule_gov.interfaces.i_rule_gov import IRuleGov
+from ..interfaces.i_rule_gov import IRuleGov
 
 
 class RuleGovImpl(IRuleGov):

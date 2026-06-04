@@ -1,4 +1,4 @@
-from app_layer.infra_plane.mem_sys.interfaces.i_mem_sys import IMemSys
+from ..interfaces.i_mem_sys import IMemSys
 
 
 class MemSysImpl(IMemSys):

@@ -1,4 +1,5 @@
-class LoadBalancerImpl:
+from ..interfaces.i_load_balancer import ILoadBalancer
+class LoadBalancerImpl(ILoadBalancer):
     def collect_metrics(self) -> None:
         pass
 

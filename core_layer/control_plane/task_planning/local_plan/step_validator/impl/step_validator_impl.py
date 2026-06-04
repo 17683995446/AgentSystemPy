@@ -1,4 +1,5 @@
-class StepValidatorImpl:
+from ..interfaces.i_step_validator import IStepValidator
+class StepValidatorImpl(IStepValidator):
     def check_rules(self) -> None:
         pass
 

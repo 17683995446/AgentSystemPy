@@ -1,4 +1,5 @@
-class StepBatchOptimizerImpl:
+from ..interfaces.i_step_batch_optimizer import IStepBatchOptimizer
+class StepBatchOptimizerImpl(IStepBatchOptimizer):
     def optimize(self) -> None:
         pass
 

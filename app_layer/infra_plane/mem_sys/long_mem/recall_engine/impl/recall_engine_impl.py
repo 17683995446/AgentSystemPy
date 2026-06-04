@@ -1,4 +1,5 @@
-class RecallEngineImpl:
+from ..interfaces.i_recall_engine import IRecallEngine
+class RecallEngineImpl(IRecallEngine):
     def search_index(self) -> None:
         pass
 

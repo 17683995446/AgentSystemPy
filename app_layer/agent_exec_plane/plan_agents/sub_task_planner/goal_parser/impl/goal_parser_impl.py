@@ -1,4 +1,5 @@
-class GoalParserImpl:
+from ..interfaces.i_goal_parser import IGoalParser
+class GoalParserImpl(IGoalParser):
     def lex_input(self) -> None:
         pass
 

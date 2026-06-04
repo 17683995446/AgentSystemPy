@@ -1,4 +1,4 @@
-from core_layer.coord_plane.msg_bus.interfaces.i_msg_bus import IMsgBus
+from ..interfaces.i_msg_bus import IMsgBus
 
 
 class MsgBusImpl(IMsgBus):

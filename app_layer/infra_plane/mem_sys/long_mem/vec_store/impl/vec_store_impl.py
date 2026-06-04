@@ -1,4 +1,5 @@
-class VecStoreImpl:
+from ..interfaces.i_vec_store import IVecStore
+class VecStoreImpl(IVecStore):
     def store_vec(self) -> None:
         pass
 

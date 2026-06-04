@@ -1,4 +1,5 @@
-class AccessAuditLogImpl:
+from ..interfaces.i_access_audit_log import IAccessAuditLog
+class AccessAuditLogImpl(IAccessAuditLog):
     def log_access(self) -> None:
         pass
 

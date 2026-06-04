@@ -1,4 +1,4 @@
-from core_layer.coord_plane.interfaces.i_coord_plane import ICoordPlane
+from ..interfaces.i_coord_plane import ICoordPlane
 
 
 class CoordPlaneImpl(ICoordPlane):

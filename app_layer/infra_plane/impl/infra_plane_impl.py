@@ -1,4 +1,4 @@
-from app_layer.infra_plane.interfaces.i_infra_plane import IInfraPlane
+from ..interfaces.i_infra_plane import IInfraPlane
 
 
 class InfraPlaneImpl(IInfraPlane):
