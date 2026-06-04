@@ -1,0 +1,6 @@
+from typing import Protocol
+
+
+class IAgentSystem(Protocol):
+    def start(self) -> None: ...
+    def stop(self) -> None: ...

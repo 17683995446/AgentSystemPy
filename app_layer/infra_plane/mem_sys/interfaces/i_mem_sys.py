@@ -1,0 +1,6 @@
+from typing import Protocol
+
+
+class IMemSys(Protocol):
+    def persist(self) -> None: ...
+    def recall(self) -> None: ...

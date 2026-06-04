@@ -1,0 +1,6 @@
+from typing import Protocol
+
+
+class IExecAgents(Protocol):
+    def invoke_tool(self) -> None: ...
+    def process_data(self) -> None: ...

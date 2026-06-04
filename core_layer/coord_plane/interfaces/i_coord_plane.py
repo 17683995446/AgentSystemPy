@@ -1,0 +1,6 @@
+from typing import Protocol
+
+
+class ICoordPlane(Protocol):
+    def route_message(self) -> None: ...
+    def route_task(self) -> None: ...

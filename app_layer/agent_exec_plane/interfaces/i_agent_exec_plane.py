@@ -1,0 +1,6 @@
+from typing import Protocol
+
+
+class IAgentExecPlane(Protocol):
+    def plan_subtask(self) -> None: ...
+    def execute_tool(self) -> None: ...

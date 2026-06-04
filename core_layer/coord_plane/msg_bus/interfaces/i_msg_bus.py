@@ -1,0 +1,6 @@
+from typing import Protocol
+
+
+class IMsgBus(Protocol):
+    def publish(self) -> None: ...
+    def subscribe(self) -> None: ...

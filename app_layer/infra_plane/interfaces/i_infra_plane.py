@@ -1,0 +1,6 @@
+from typing import Protocol
+
+
+class IInfraPlane(Protocol):
+    def store_memory(self) -> None: ...
+    def observe_state(self) -> None: ...

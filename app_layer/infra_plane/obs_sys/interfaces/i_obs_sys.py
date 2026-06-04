@@ -1,0 +1,6 @@
+from typing import Protocol
+
+
+class IObsSys(Protocol):
+    def log_trace(self) -> None: ...
+    def monitor_state(self) -> None: ...

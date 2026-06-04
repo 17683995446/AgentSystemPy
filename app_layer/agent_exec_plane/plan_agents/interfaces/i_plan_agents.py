@@ -1,0 +1,6 @@
+from typing import Protocol
+
+
+class IPlanAgents(Protocol):
+    def split_goal(self) -> None: ...
+    def rank_routes(self) -> None: ...

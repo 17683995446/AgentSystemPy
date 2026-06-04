@@ -1,0 +1,6 @@
+from typing import Protocol
+
+
+class ITaskRouter(Protocol):
+    def match_agent(self) -> None: ...
+    def sequence_steps(self) -> None: ...

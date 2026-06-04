@@ -1,0 +1,6 @@
+from typing import Protocol
+
+
+class IAppLayer(Protocol):
+    def run(self) -> None: ...
+    def pause(self) -> None: ...

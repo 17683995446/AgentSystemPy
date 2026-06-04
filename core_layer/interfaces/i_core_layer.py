@@ -1,0 +1,6 @@
+from typing import Protocol
+
+
+class ICoreLayer(Protocol):
+    def initialize(self) -> None: ...
+    def shutdown(self) -> None: ...

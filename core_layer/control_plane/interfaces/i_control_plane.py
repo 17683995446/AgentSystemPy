@@ -1,0 +1,6 @@
+from typing import Protocol
+
+
+class IControlPlane(Protocol):
+    def plan_task(self) -> None: ...
+    def govern_rules(self) -> None: ...

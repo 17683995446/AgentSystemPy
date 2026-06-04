@@ -1,0 +1,6 @@
+from typing import Protocol
+
+
+class ITaskPlanning(Protocol):
+    def decompose_task(self) -> None: ...
+    def optimize_path(self) -> None: ...

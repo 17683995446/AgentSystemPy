@@ -1,0 +1,6 @@
+from typing import Protocol
+
+
+class IRuleGov(Protocol):
+    def enforce_policy(self) -> None: ...
+    def audit_compliance(self) -> None: ...
